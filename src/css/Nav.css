@@ -9,6 +9,7 @@
 .app_container {
   width: 90%;
   margin: auto;
+  border-bottom: 1px solid red;
 }
 
 .nav_container {
