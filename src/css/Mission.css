@@ -5,3 +5,8 @@
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.2px;
 }
+
+.app_container {
+  width: 90%;
+  margin: auto;
+}

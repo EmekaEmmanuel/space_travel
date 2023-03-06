@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.app_container {
+  width: 90%;
+  margin: auto;
+}
+
+.nav_container {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_logo_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo_img {
+  width: 50px;
+  display: flex;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  gap: 15px;
+}
+
+.td_none {
+  text-decoration: none;
+}
+
+.vertical_line {
+  border-right: 1px solid #e8e8e8;
+}
