@@ -1,34 +1,10 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
 
-  <h3><b>Math Magician project</b></h3>
+  <h3><b>Space Travel project</b></h3>
 
-</div>
-
-<!-- TABLE OF CONTENTS -->
+</div> 
 
 # 📗 Table of Contents
 
@@ -48,49 +24,44 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [📝 License](#license) 
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 Space Travel project <a name="about-project"></a>
 
-# 📖 Capstone javascript project <a name="about-project"></a>
-
-> This is a project for all fans of mathematics; It is a Single Page App (SPA) that allows users to: Make simple calculations and Read a random math-related quote.
+> A project for a company that provides commercial and scientific space travel services. It allows user to book rockets and join selected space missions.
 
 ## 🛠 Built With <a name="built-with"> </a>
 
 > React.
+> Redux.
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> React.
-
-<!-- Features -->
+> React. 
 
 ### Key Features <a name="key-features"></a>
+- **[Display a list of books ..]**
+- **[Allows users to Add a book ..]**
+- **[Allows users to Remove a selected book..]** 
 
-- **[Allows users to Make simple calculations ..]**
-- **[Allows users to Read a random math-related quote..]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p><!-- LIVE DEMO -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://emekaemmanuel.github.io/math_magiciansReact
+- [Live Demo Link](https://emekaemmanuel.github.io/space_travel
 ) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Presentation <a name="project-presentation"></a>
 
-- [Project Presentation video link](https://) 
-
-<!-- GETTING STARTED -->
+- [Project Presentation video link](https://)  
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 to run on your localhost clone the project to local folder
 
-> cd math_magiciansReact
+> cd space_travel
 
 ## Available Scripts
 
@@ -104,65 +75,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
 ### Setup
 
-> <p> git clone https://github.com/EmekaEmmanuel/math_magiciansReact.git</p>
-> cd math_magiciansReact
+> <p> git clone https://github.com/EmekaEmmanuel/space_travel.git</p>
+> cd space_travel
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,9 +100,7 @@ To install this project in your local machine use
 
 To run the project, execute the following command:
 
-> In visual studio code Go to dist folder then open index.html in live server.
-
-<!-- AUTHORS -->
+> In visual studio code Go to dist folder then open index.html in live server. 
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -194,39 +108,39 @@ To run the project, execute the following command:
 
 - GitHub: [EmekaEmmanuel](https://github.com/EmekaEmmanuel)
 - Twitter: [@emekaekeoha](https://twitter.com/emekaekeoha)
-- LinkedIn: [emeka-ugboaja](https://www.linkedin.com/in/emeka-ugboaja-167820226)
+- LinkedIn: [emeka-ugboaja](https://www.linkedin.com/in/emeka-ugboaja-167820226) 
 
-<!-- FUTURE FEATURES -->
+👤 **Jugoslav Achkoski**
+
+- GitHub: [@jugosack](https://github.com/jugosack)
+- Twitter: [@Jugosla22401325](https://twitter.com/Jugosla22401325)
+- LinkedIn: [jugoslav-achkoski](https://www.linkedin.com/in/jugoslav-achkoski-3a074021/)
 
 ## 🔭 Future Features <a name="future-features"></a>
-
+- Display pre-set categories dynamically.
+- Add a page that displays books by filtered category.
+- Add more css styling.
 >
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/EmekaEmmanuel/
-math_magiciansReact/issues).
+Feel free to check the [issues page](https://github.com/EmekaEmmanuel/space_travel/issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- SUPPORT -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 ## ⭐️ Show your support <a name="support"></a>
 
 > If you like the project please give it star
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > we would like to thank Microverse team
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 ## 📝 License <a name="license"></a>
 
