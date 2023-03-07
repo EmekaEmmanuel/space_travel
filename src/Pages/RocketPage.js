@@ -11,14 +11,14 @@ function RocketPage() {
   useEffect(() => {
     let active = true;
     (async () => {
-      if (active) {
+      if (active && myRockets.length === 0) {
         dispatch(fetchRockets());
       }
     })();
     return () => {
       active = false;
     };
-  }, [dispatch]);
+  }, [dispatch, myRockets]);
 
   return (
     <div>

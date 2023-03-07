@@ -11,14 +11,14 @@ function MissionPage() {
   useEffect(() => {
     let active = true;
     (async () => {
-      if (active) {
+      if (active && myMissions.length === 0) {
         dispatch(fetchMission());
       }
     })();
     return () => {
       active = false;
     };
-  }, [dispatch]);
+  }, [dispatch, myMissions]);
 
   return (
     <div>
