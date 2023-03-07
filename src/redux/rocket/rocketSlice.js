@@ -11,7 +11,6 @@ const initialState = {
 
 export const fetchRockets = createAsyncThunk('rocket/fetchRockets', async () => {
   const { data } = await (axios.get(getRocketsURL));
-  // console.log(data);
   return data;
 });
 
@@ -21,42 +20,25 @@ const rocketSlice = createSlice({
   name: 'rocket',
   initialState,
   reducers: {
-    initRocketsData(state, action) {
-      state.rockets = action.payload;
-    },
-    reserveRocket: (state, action) => {
-      console.log(state);
-      const reserveRocketID = action.payload;
-      const reservedRocketArr = [];
-      state.map((rocket) => {
-        console.log(rocket);
-        if (rocket.id === reserveRocketID) {
-          reservedRocketArr.push({
-            ...rocket,
-            reserved: true,
-          });
-        } else {
-          reservedRocketArr.push(rocket);
-        }
-        return reservedRocketArr;
+    bookRocket: (state, { payload }) => {
+      const newRockets = state.rockets.map((rocket) => {
+        if (rocket.id !== payload) { return rocket; }
+        return { ...rocket, reserved: true };
       });
-      return { ...state, data: reservedRocketArr };
+      return {
+        ...state,
+        rockets: newRockets,
+      };
     },
-    unreserveRocket: (state, action) => {
-      const reserveRocketID = action.payload;
-      const reservedRocketArr = [];
-      state.rockets.map((rocket) => {
-        if (rocket.id === reserveRocketID) {
-          reservedRocketArr.push({
-            ...rocket,
-            reserved: false,
-          });
-        } else {
-          reservedRocketArr.push(rocket);
-        }
-        return reservedRocketArr;
+    unreserveRocket: (state, { payload }) => {
+      const newRockets = state.rockets.map((rocket) => {
+        if (rocket.id !== payload) { return rocket; }
+        return { ...rocket, reserved: false };
       });
-      return { ...state, data: reservedRocketArr };
+      return {
+        ...state,
+        rockets: newRockets,
+      };
     },
   },
   extraReducers: (builder) => {
@@ -67,7 +49,6 @@ const rocketSlice = createSlice({
         state.loading = false;
         state.error = '';
         state.rockets = action.payload;
-        console.log(state.rockets);
       })
       .addCase(fetchRockets.rejected, (state) => {
         state.loading = false;
@@ -80,4 +61,4 @@ const rocketSlice = createSlice({
 
 export default rocketSlice.reducer;
 
-export const { reserveRocket, unreserveRocket, initRocketsData } = rocketSlice.actions;
+export const { bookRocket, unreserveRocket } = rocketSlice.actions;

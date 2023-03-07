@@ -11,7 +11,6 @@ const initialState = {
 
 export const fetchMission = createAsyncThunk('rocket/fetchMission', async () => {
   const { data } = await (axios.get(getMissionURL));
-  //   console.log(data);
   return data;
 });
 
@@ -21,40 +20,25 @@ const missionSlice = createSlice({
   name: 'mission',
   initialState,
   reducers: {
-    initMissionData(state, action) {
-      state.missions = action.payload;
-    },
-    joinMission: (state, action) => {
-      const missionID = action.payload;
-      const joinMissionArr = [];
-      state.missions.map((mission) => {
-        if (mission.id === missionID) {
-          joinMissionArr.push({
-            ...mission,
-            reserved: true,
-          });
-        } else {
-          joinMissionArr.push(mission);
-        }
-        return joinMissionArr;
+    joinMission: (state, { payload }) => {
+      const newMission = state.missions.map((mission) => {
+        if (mission.mission_id !== payload) { return mission; }
+        return { ...mission, reserved: true };
       });
-      return { ...state, data: joinMissionArr };
+      return {
+        ...state,
+        missions: newMission,
+      };
     },
-    leaveMission: (state, action) => {
-      const missionID = action.payload;
-      const leaveMissionArr = [];
-      state.missions.map((mission) => {
-        if (mission.id === missionID) {
-          leaveMissionArr.push({
-            ...mission,
-            reserved: false,
-          });
-        } else {
-          leaveMissionArr.push(mission);
-        }
-        return leaveMissionArr;
+    leaveMission: (state, { payload }) => {
+      const newMission = state.missions.map((mission) => {
+        if (mission.mission_id !== payload) { return mission; }
+        return { ...mission, reserved: false };
       });
-      return { ...state, data: leaveMissionArr };
+      return {
+        ...state,
+        missions: newMission,
+      };
     },
   },
   extraReducers: (builder) => {
