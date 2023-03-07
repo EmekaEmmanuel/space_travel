@@ -21,11 +21,11 @@ function Nav() {
 
           <li className="nav_item" />
 
-          <li className="nav_item vertical_line">
+          <li className="nav_item ">
             <Link to="/Missions" className="td_none nav_link">Missions </Link>
           </li>
 
-          <li className="nav_item" />
+          <li className="nav_item vertical_line" />
 
           <li className="nav_item">
             <Link to="/MyProfile" className="td_none nav_link">My Profile </Link>
