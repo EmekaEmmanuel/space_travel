@@ -35,7 +35,7 @@ function Mission(props) {
           <tbody>
             {myMissions.map((myMission) => (
               <tr key={myMission.mission_id}>
-                <td className="mission_font1 table_data_tag tdt10">
+                <td className="mission_font1 table_data_tag tdt10 mission_td_bold1">
                   <p>{myMission.mission_name}</p>
                 </td>
                 <td className="mission_font1 tdt70">

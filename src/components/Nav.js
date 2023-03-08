@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/Nav.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import spaceLogo from '../img/logo.png';
 
 function Nav() {
@@ -16,19 +16,19 @@ function Nav() {
 
         <nav className="nav_list">
           <li className="nav_item">
-            <Link to="/" className="td_none nav_link">Rockets </Link>
+            <NavLink to="/" activeClassName="active" className="td_none nav_link">Rockets </NavLink>
           </li>
 
           <li className="nav_item" />
 
           <li className="nav_item ">
-            <Link to="/Missions" className="td_none nav_link">Missions </Link>
+            <NavLink to="/Missions" activeClassName="active" className="td_none nav_link">Missions </NavLink>
           </li>
 
           <li className="nav_item vertical_line" />
 
           <li className="nav_item">
-            <Link to="/MyProfile" className="td_none nav_link">My Profile </Link>
+            <NavLink to="/MyProfile" activeClassName="active" className="td_none nav_link">My Profile </NavLink>
           </li>
         </nav>
       </header>

@@ -41,6 +41,11 @@
   text-decoration: none;
 }
 
+.active {
+  /* border-bottom: 1px solid #18a2b8; */
+  text-decoration: underline;
+}
+
 .vertical_line {
   border-right: 1px solid #e8e8e8;
 }
