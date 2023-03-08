@@ -60,7 +60,7 @@ const missionSlice = createSlice({
 /* eslint-disable no-param-reassign */
 
 /// ////////////////////////////
-export const selectAllmissions = (state) => state.mission;
+export const selectAllmissions = (state) => state.mission.missions;
 /// ///////////////////////////
 
 export default missionSlice.reducer;

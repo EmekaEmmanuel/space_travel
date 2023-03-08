@@ -58,6 +58,9 @@ const rocketSlice = createSlice({
 });
 
 /* eslint-disable no-param-reassign */
+/// /////////////////////////////////////////
+export const selectAllrocket = (state) => state.rocket.rockets;
+/// /////////////////////////////////////////
 
 export default rocketSlice.reducer;
 
