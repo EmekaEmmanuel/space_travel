@@ -10,3 +10,28 @@
   width: 90%;
   margin: auto;
 }
+
+.myprofile_section {
+  padding: 20px 0;
+  border-top: 1px solid #b6babe;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.myprofile_article {
+  width: 100%;
+}
+
+.myprofile_article header {
+  padding: 10px 0;
+}
+
+.myprofile_listbox {
+  list-style: none;
+}
+
+.myprofile_list_item {
+  padding: 10px 5px;
+  border: 1px solid #e8e8e8;
+}
