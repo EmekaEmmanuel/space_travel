@@ -13,7 +13,7 @@ function MyProfile() {
     <div className="app_container">
       <section className="myprofile_section">
         <article className="myprofile_article">
-          <header className="myprofile_article_header"><h1>My Missions</h1></header>
+          <header className="myprofile_article_header"><h1>My Rockets</h1></header>
           {myProfileRocket.map((rocket) => (
             <ul className="myprofile_listbox" key={rocket.id}>
               <li className="myprofile_list_item">{rocket.name}</li>
@@ -22,7 +22,7 @@ function MyProfile() {
         </article>
 
         <article className="myprofile_article">
-          <header className="myprofile_article_header"><h1>My Rockets</h1></header>
+          <header className="myprofile_article_header"><h1>My Missions</h1></header>
           {myProfileMission.map((mission) => (
             <ul
               className="myprofile_listbox"
