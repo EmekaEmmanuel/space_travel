@@ -41,8 +41,7 @@
   text-decoration: none;
 }
 
-.active {
-  /* border-bottom: 1px solid #18a2b8; */
+.active { 
   text-decoration: underline;
 }
 
