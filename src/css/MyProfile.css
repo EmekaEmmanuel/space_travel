@@ -11,13 +11,13 @@
   margin: auto;
 } */
 
-
 .tableContainer {
   width: 90%;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "missions rockets";
+
   /* margin: 0.5rem 0 1rem 0; */
   text-align: center;
   background-color: var(--color-white);
@@ -34,7 +34,7 @@
 h1 {
   margin: 0.5rem;
   font-size: 1rem;
-  text-align:left ;
+  text-align: left;
   padding-left: 0.5rem;
 }
 
