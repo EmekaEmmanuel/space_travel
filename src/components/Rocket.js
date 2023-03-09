@@ -23,7 +23,7 @@ function Rocket(props) {
         {myRockets.map((myRocket) => (
           <article className="rocket_article" key={myRocket.id}>
             <figure className="rocket_figure">
-              <img className="rocket_figure_img" src={myRocket.flickr_images[0]} alt="rocket_image" />
+              <img className="rocket_figure_img" src={myRocket.flickr_images[0]} alt="rocket_img" />
             </figure>
 
             <div>
