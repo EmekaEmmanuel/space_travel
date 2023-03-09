@@ -40,16 +40,16 @@
 > React. 
 
 ### Key Features <a name="key-features"></a>
-- **[Display a list of books ..]**
-- **[Allows users to Add a book ..]**
-- **[Allows users to Remove a selected book..]** 
+- **[Display a list of Rockets and missions ..]**
+- **[Allows users to reserve rockets and join mission ..]**
+- **[Allows users to unreserve a rocket and leave mission..]** 
+- **[Display a list of reserved Rockets and booked missions on my prlofile component ..]** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://emekaemmanuel.github.io/space_travel
-) 
+- [Live Demo Link](https://visitspace.onrender.com/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,9 +117,10 @@ To run the project, execute the following command:
 - LinkedIn: [jugoslav-achkoski](https://www.linkedin.com/in/jugoslav-achkoski-3a074021/)
 
 ## 🔭 Future Features <a name="future-features"></a>
-- Display pre-set categories dynamically.
-- Add a page that displays books by filtered category.
-- Add more css styling.
+- **[Display a list of dragons ..]**
+- **[Allows users to reserve dragons ..]**
+- **[Allows users to unreserve a dragon ..]** 
+- **[Display a list of reserved dragons on my prlofile component ..]**
 >
 
 ## 🤝 Contributing <a name="contributing"></a>
