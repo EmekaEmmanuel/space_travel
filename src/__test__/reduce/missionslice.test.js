@@ -29,25 +29,3 @@ describe('Mission redux state tests', () => {
     expect(axiosSpy).toHaveBeenCalledWith(url);
   });
 });
-
-//
-//   describe('Unit testing for calculate.js', () => {
-//     test('First time pressing +', () => {
-//       const myMockedObject = {
-//         total: null,
-//         next: null,
-//         operation: null,
-//       };
-
-//       let MockedButtonName = null;
-
-//       myMockedObject.total = '100';
-//       MockedButtonName = '+';
-
-//       expect(calculate(myMockedObject, MockedButtonName)).toStrictEqual({
-//         total: '100',
-//         next: null,
-//         operation: '+',
-//       });
-//     });
-// });
