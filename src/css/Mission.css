@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.app_container {
+  width: 90%;
+  margin: auto;
+}
+
+.mission_section {
+  padding: 20px 0;
+  border-top: 1px solid #b6babe;
+}
+
+.table_row_head {
+  padding: 5px;
+  align-items: center;
+}
+
+.tht10 {
+  width: 11%;
+  padding: 5px 0;
+  border: 1px solid black;
+  font-weight: 600;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.tht70 {
+  width: 55%;
+  border: 1px solid black;
+  font-weight: 600;
+}
+
+.tdt10 {
+  width: 11%;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.tdt70 {
+  width: 55%;
+  border: 1px solid black;
+}
+
+.mission_padd1 {
+  padding: 5px;
+}
+
+.mission_font1 {
+  font-weight: 400;
+  font-size: 13px;
+  color: #121212;
+}
+
+.mission_td_bold1 {
+  font-weight: 700;
+}
+
+.mission_btn1 {
+  padding: 1px 4px;
+  background-color: #6d757d;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+.mission_btn2 {
+  background-color: white;
+  padding: 1px 4px;
+  border: 1px solid #6d757d;
+  color: #6d757d;
+  border-radius: 4px;
+}
+
+.mission_btn3 {
+  padding: 1px 4px;
+  background-color: #18a2b8;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+.mission_btn4 {
+  background-color: white;
+  color: #f0a8af;
+  padding: 1px 4px;
+  border: 1px solid #f0a8af;
+  border-radius: 4px;
+}
