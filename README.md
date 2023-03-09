@@ -40,10 +40,10 @@
 > React. 
 
 ### Key Features <a name="key-features"></a>
-- **[Display a list of Rockets and missions ..]**
-- **[Allows users to reserve rockets and join mission ..]**
-- **[Allows users to unreserve a rocket and leave mission..]** 
-- **[Display a list of reserved Rockets and booked missions on my prlofile component ..]** 
+- **[Display a list of Rockets and missions ...]**
+- **[Allows users to reserve rockets and join mission ...]**
+- **[Allows users to unreserve a rocket and leave mission ...]** 
+- **[Display a list of reserved Rockets and booked missions on my prlofile component ...]** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,10 +117,10 @@ To run the project, execute the following command:
 - LinkedIn: [jugoslav-achkoski](https://www.linkedin.com/in/jugoslav-achkoski-3a074021/)
 
 ## 🔭 Future Features <a name="future-features"></a>
-- **[Display a list of dragons ..]**
-- **[Allows users to reserve dragons ..]**
-- **[Allows users to unreserve a dragon ..]** 
-- **[Display a list of reserved dragons on my prlofile component ..]**
+- **[Display a list of dragons ...]**
+- **[Allows users to reserve dragons ...]**
+- **[Allows users to unreserve a dragon ...]** 
+- **[Display a list of reserved dragons on my prlofile component ...]**
 >
 
 ## 🤝 Contributing <a name="contributing"></a>
