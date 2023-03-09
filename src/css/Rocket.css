@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.app_container {
+  width: 90%;
+  margin: auto;
+}
+
+.rocket_section {
+  padding: 20px 0;
+}
+
+.rocket_article {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.rocket_figure_img {
+  width: 250px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.rocket_text {
+  padding: 15px 0;
+}
+
+.rocket_btn1 {
+  padding: 1px 4px;
+  background-color: #18a2b8;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+.rocket_btn2 {
+  padding: 15px 8px;
+  background-color: #007bff;
+  border-radius: 8px;
+  border: 1px solid #007bff;
+  color: white;
+}
+
+.rocket_btn3 {
+  padding: 15px 8px;
+  background-color: white;
+  color: #b6babe;
+  border: 1px solid #b6babe;
+  border-radius: 8px;
+}
+
+.font2 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #401212;
+  padding: 2px 0;
+}
+
+.border_none {
+  border: none;
+}
+
+.outline_none {
+  outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .rocket_font1 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #401212;
+    padding: 2px 0;
+  }
+
+  .rocket_font2 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #401212;
+    padding: 2px 0;
+  }
+}
